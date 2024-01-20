@@ -1,4 +1,4 @@
-# Project is about Scrapping oney COntrol site for Different Indian Stock, Around 16K pages have been scrapped,apply filter to get useful around 10K stock data.
+# Project is about Scrapping Money Control Website for Different Indian Stock using Scrappy, Around 16K pages have been scrapped,apply filter to get useful around 10K stock data. Follwing are the fields that have been scrapped.
 NAME (Stock Name):The name of the company or entity.
 
 TYPE (Industry Type):The industry or sector in which the company operates.
