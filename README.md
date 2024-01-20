@@ -1,5 +1,25 @@
-# scrapStock  Initialization: We set up the web scraping Spider, defining its name, allowed domains, and starting URLs.
-Parsing: The parse method initiates the scraping process by extracting links and navigating through pages.
-Data Extraction: The parse_book_page method dives into each stock page, extracting detailed information like name, type, cost, strengths, weaknesses, opportunities, and threats.
-Handling Cost: The fetch_stock_cost method ensures the accurate handling of stock cost data, converting it to a float for enhanced usability.
+# Project is about Scrapping oney COntrol site for Different Indian Stock, Around 16K pages have been scrapped,apply filter to get useful around 10K stock data.
+NAME (Stock Name):The name of the company or entity.
+
+TYPE (Industry Type):The industry or sector in which the company operates.
+
+COST (Stock Cost):The current cost or price of the stock.
+
+STRENGTH:Positive attributes or strengths of the stock, such as "Strong
+
+Momentum" or "New 52 Week High."
+
+WEAKNESS:Areas of weakness or challenges faced by the stock, for example, "Degrowth in Revenue" or "Decline in Quarterly Net Profit."
+
+OPPORTUNITIES:Potential opportunities for the stock, such as "Positive Breakout" or "Turnaround Potential."
+
+THREATS:Possible threats or risks associated with the stock.
+
+P_LOW (Lowest Price):The lowest price observed for the stock.
+
+P_HIGH (Highest Price):The highest price observed for the stock.
+
+YEARLY_LOW (Yearly Lowest Price):The lowest price observed during the year.
+
+YEARLY_HIGH (Yearly Highest Price):The highest price observed during the year.
  
